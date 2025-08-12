@@ -1,2 +1,44 @@
-# Verificador-de-Pal-ndromos-en-Python
-Este proyecto contiene un pequeño script en Python que verifica si un texto dado es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda, ignorando espacios, mayúsculas y caracteres especiales.  🔧 ¿Cómo funciona? El texto de entrada se normaliza: se convierte 
+# Verificador de Palíndromos en Python 🧠🐍
+
+Este proyecto es un sencillo script en Python que permite verificar si un texto ingresado es un **palíndromo**, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda, ignorando espacios, mayúsculas y signos de puntuación.
+
+## 🚀 Características
+
+- Limpieza automática del texto (ignora mayúsculas y caracteres no alfanuméricos).
+- Lógica simple y eficiente para verificar si una cadena es palíndroma.
+- Comentarios y documentación incluidos para facilitar su comprensión.
+
+## 💻 Ejemplo de uso
+
+```python
+texto = "Eleven animals I slam in a net"
+
+if es_palindromo(texto):
+    print("Es palíndromo")
+else:
+    print("No es palíndromo")
+
+🛠️ Estructura del proyecto
+bash
+Copiar
+Editar
+palindromo/
+│
+├── palindromo.py        # Script principal con la función y prueba
+└── README.md            # Documentación del proyecto
+📌 Cómo ejecutarlo
+Asegúrate de tener Python 3 instalado.
+
+Clona este repositorio o descarga los archivos.
+
+Ejecuta el script:
+
+bash
+Copiar
+Editar
+python palindromo.py
+🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas mejorar el código, agregar más funcionalidades o corregir errores, siéntete libre de hacer un fork y enviar un pull request.
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT. Puedes usarlo libremente con fines educativos y personales.
