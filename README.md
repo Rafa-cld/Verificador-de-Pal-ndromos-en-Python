@@ -17,8 +17,8 @@ if es_palindromo(texto):
     print("Es palíndromo")
 else:
     print("No es palíndromo")
-
-🛠️ Estructura del proyecto
+```
+```🛠️ Estructura del proyecto
 bash
 Copiar
 Editar
@@ -26,17 +26,14 @@ palindromo/
 │
 ├── palindromo.py        # Script principal con la función y prueba
 └── README.md            # Documentación del proyecto
+```
 📌 Cómo ejecutarlo
-Asegúrate de tener Python 3 instalado.
-
-Clona este repositorio o descarga los archivos.
-
-Ejecuta el script:
-
-bash
-Copiar
-Editar
+1. Asegúrate de tener Python 3 instalado.
+2. Clona este repositorio o descarga los archivos.
+3. Ejecuta el script:
+```   
 python palindromo.py
+```
 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar el código, agregar más funcionalidades o corregir errores, siéntete libre de hacer un fork y enviar un pull request.
 
