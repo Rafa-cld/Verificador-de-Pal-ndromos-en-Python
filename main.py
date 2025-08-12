@@ -2,6 +2,9 @@ def es_palindromo(text): # Verifica si el texto dado es un palíndromo
     
     # Limpiar el texto: convertir a minúsculas y eliminar caracteres no alfanuméricos
     text = "".join(char.lower() for char in text if char.isalnum())
+    # Verificar si está vacío después de limpiar
+    if not text:
+        return False
     return text == text[::-1]
     
 text = input("Ingrese un texto para verificar si es palíndromo: ")
