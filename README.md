@@ -17,11 +17,11 @@ if es_palindromo(texto):
     print("Es palíndromo")
 else:
     print("No es palíndromo")
+Es palíndromo
+
 ```
-```🛠️ Estructura del proyecto
-bash
-Copiar
-Editar
+🛠️ Estructura del proyecto
+```
 palindromo/
 │
 ├── palindromo.py        # Script principal con la función y prueba
